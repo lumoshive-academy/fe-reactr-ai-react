@@ -1,0 +1,25 @@
+.chat-message {
+  animation: fadeIn 0.1s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.chat-message:nth-last-child(1) {
+  margin-bottom: 120px;
+}
+
+.chat-container {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
